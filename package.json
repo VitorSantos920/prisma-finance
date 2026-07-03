@@ -1,0 +1,16 @@
+{
+  "name": "prisma-finance",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:api": "npm run dev --workspace=apps/api"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
