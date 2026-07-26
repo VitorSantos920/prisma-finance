@@ -5,4 +5,4 @@ node_modules
 .claude
 .windsurf
 
-prisma/generated/prisma
+src/generated
